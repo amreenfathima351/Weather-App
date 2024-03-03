@@ -20,4 +20,21 @@ A simple weather application built using React.js,JavaScript,Tailwind CSS and Op
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/amreenfathima351/Weather-App.git
+
+2. Navigate to the project directory:
+    ```bash
+    cd Weather-App
+3. Install dependencies:
+    ```bash
+    npm start
+4. Start the development server:
+      ```bash
+      npm start
+This will open the app in your default web browser.
+##Configuration
+- **The Tailwind CSS configuration can be found in tailwind.config.js.
+- **The main application code is in src/Components/WeatherApp/WeatherApp.js.
+- **Styling is done using Tailwind CSS and can be customized in the WeatherApp.css file.
+##API Key
+The app uses the OpenWeatherMap API to fetch weather data. Make sure to replace the API key in the getData function in src/Components/Weather/WeatherApp.js with your own API key. You can obtain a free API key by signing up on the OpenWeatherMap website.
