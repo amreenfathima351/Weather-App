@@ -41,11 +41,9 @@ The app uses the OpenWeatherMap API to fetch weather data. Make sure to replace 
    // Replace 'YOUR_API_KEY' with your actual API key
    let url=`https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
 ```
-## License
-This project is licensed under the MIT License.
 
 ## Deployment
 This app is deployed using Vercel. You can deploy your instance by following the deployment instructions provided by Vercel or any other hosting service of your choice.
 
-License
-This project is licensed under the [MIT License]().
+## License
+This project is licensed under the [MIT License](https://github.com/amreenfathima351/Weather-App/blob/main/LICENSE).
